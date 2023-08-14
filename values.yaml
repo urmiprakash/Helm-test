@@ -1,0 +1,15 @@
+replicaCount: 1
+
+image:
+  repository: debajyotim/verizon
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  name: verizon
+  type: ClusterIP
+  port: 80
+  targetPort: 9000
+
+env:
+  name: dev
