@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: debajyotim/verizon
+  repository: sarni11/verizon1
   tag: "latest"
   pullPolicy: IfNotPresent
 
