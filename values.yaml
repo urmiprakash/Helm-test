@@ -3,13 +3,13 @@ replicaCount: 1
 image:
   repository: sarni11/verizon1
   tag: "latest"
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   name: verizon
   type: ClusterIP
   port: 80
-  targetPort: 9000
+  targetPort: 8080
 
 env:
   name: dev
