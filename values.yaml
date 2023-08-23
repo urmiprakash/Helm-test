@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: sarni11/verizon1
+  repository: sarni11/beep
   tag: "latest"
   pullPolicy: Always
 
