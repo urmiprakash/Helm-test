@@ -6,7 +6,7 @@ image:
   pullPolicy: Always
 
 service:
-  name: verizon
+  name: veri
   type: ClusterIP
   port: 80
   targetPort: 8080
